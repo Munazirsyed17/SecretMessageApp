@@ -57,5 +57,6 @@ h3{
 div#foot {
 font-size: 15px;
   position:fixed;
-  bottom: 10px;
+  top: 10px;
+   text-align: center;
 }
