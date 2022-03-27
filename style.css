@@ -30,8 +30,9 @@ button{
 }
 input{
     border-radius: 30px;
-    width: 50vw;
-    height: 40px;
+    width: 70vw;
+   
+    font-size: 20px;
     text-align: center; 
     color: black;
 }
