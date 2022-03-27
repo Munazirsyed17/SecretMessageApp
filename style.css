@@ -32,7 +32,7 @@ input{
     border-radius: 30px;
     width: 70vw;
    
-    font-size: 20px;
+    font-size: 17px;
     text-align: center; 
     color: black;
 }
@@ -56,6 +56,6 @@ h3{
   
 div#foot {
 font-size: 15px;
-  position: absolute;
+  position:fixed;
   bottom: 10px;
 }
