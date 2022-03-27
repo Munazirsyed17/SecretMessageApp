@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Secret Message sharing app | Syed Munazir Ahmed</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+     <link rel="stylesheet" href="style.css">
+     
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+<body style="background-image: url(./background.jfif);">
+    <section>
+    <h3>Secret Message sharing App</h3>
+    <p>This app helps you to share message to your friend through a link. <br> <br>
+       Type your message and click on 'create' button to generate a link. <br><br>
+       Anyone with this link can view your message.
+    </p>
+    <br><br>
+    
+    <div id="msg-link" class="hide">
+        <h1 id="final"></h1>
+        <div> <a href="./index.html" target="_blank">create your own message</a></div>
+    </div>
+
+    <div id="sec-msg">
+    <form action="">
+        <label for="">Enter your secret Message</label> <br>
+        <input id="msg-input"/>
+        <br><br>
+        <button>create</button>
+    </form>
+    </div>
+    <div class="hide" id="link">
+        <label for="" >Share this wiyh your friend</label> <br>
+        <input  id="link-input"/>
+        <button id="copy">copy </button>
+    </div>
+</section>
+
+
+<div id="foot">
+    created by |Syed Munazir Ahmed
+</div>
+    <script src='main.js'></script>
+</body>
+</html>
